@@ -19,8 +19,8 @@ main, footer, header, h1, h2, h3 {
 }
 
 main {
-    display: flex;
-    grid-template-columns: 1 1;
+    display: Grid;
+    grid-template-columns: auto auto;
     margin: auto;
     max-width: 800px;
     font-family: "Exo 2";    
