@@ -56,14 +56,20 @@ nav {
     
 }
 
+nav a {
+    color: white;
+}
+
 nav a, .card a {
-    text-decoration: none;
-    color: darkorange;    
+    text-decoration: none;   
+}
+
+nav a:hover {
+    color: chocolate;
 }
 
 nav a:hover, .card a:hover {
     text-decoration: underline;
-    color: chocolate;
 }
 
 p {
