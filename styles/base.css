@@ -1,14 +1,3 @@
-
-/* // <weight>: Use a value from 100 to 900 */
-/* // <uniquifier>: Use a unique and descriptive class name */
-
-.exo-2-personal {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
-
 * {
     margin: auto;
     max-width: 800px;
@@ -67,13 +56,12 @@ nav {
     
 }
 
-nav a{
+nav a, .card a {
     text-decoration: none;
-    color: darkorange;
-    
+    color: darkorange;    
 }
 
-nav a:hover{
+nav a:hover, .card a:hover {
     text-decoration: underline;
     color: chocolate;
 }
@@ -83,12 +71,16 @@ p {
 }
 
 .card {
-    height: 100%;
     border-radius: 1rem;
     border: 1px solid darkgreen;
     margin: 0.2rem;
-    padding: 0.2rem;
-    height: auto;
+    padding: 0.2rem;    
+}
+
+.card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-float {
