@@ -1,0 +1,102 @@
+/* // <weight>: Use a value from 100 to 900 */
+/* // <uniquifier>: Use a unique and descriptive class name */
+
+.exo-2-personal {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+* {
+    margin: auto;
+    max-width: 800px;
+    font-family: "Exo 2"; 
+}
+
+main {
+    display: flex;
+    grid-template-columns: 1 1;
+    margin: auto;
+    max-width: 800px;
+    font-family: "Exo 2";    
+}
+
+footer {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+header {
+    padding: .3rem;
+    align-items: center;
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+}
+
+h2 {
+    text-wrap: nowrap;
+    background-color: darkolivegreen;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    margin: 1rem;
+}
+
+img {
+    padding: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 1rem;
+    background-color: darkgreen;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: darkorange;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+
+p {
+    margin: 0.2rem;
+}
+
+.card {
+    height: 100%;
+    border-radius: 1rem;
+    border: 1px solid darkgreen;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    height: auto;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
