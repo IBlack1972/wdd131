@@ -12,7 +12,7 @@
         flex: 1 1 100%;
     }
 
-    main h1 {
-        grid-column:  1 / 4;
+    main h2{
+        grid-column:  1 / 4 ;
     }
 }
