@@ -18,6 +18,11 @@ main{
     place-items: center;
 }
 
+main h2 {
+    background: none;
+    color: #000;
+}
+
 #menu {
     position: fixed;
     border: 0;
@@ -42,7 +47,7 @@ main{
     display: block;
 }
 
-#title.open {
+h1.open {
     display: none;
 }
 
