@@ -1,0 +1,50 @@
+@media (min-width: 500px) {
+    #data {
+        min-width: 200px;
+        height:11rem;
+        top: 5rem;
+        left: 25rem;
+        background: rgba(0, 0, 128, 0.4);
+        color: gold;
+        padding: 0.5rem;
+    }
+
+    #data, #weather, h2, h5{
+        position: absolute;
+        margin: 0;
+    }
+
+    #weather {
+        right: 25rem;
+        bottom: 15rem;
+        background: rgba(0, 0, 128, 0.4);
+        color: gold;
+        min-width:160px;
+    }
+
+    .weather {
+        position: relative;
+        left: 6rem;
+        top: 0.5rem;
+        background: gold;
+        width: 1.4rem;
+        height: 1.7rem;
+        margin: 0;
+    }
+
+    h2 {
+        color: navy;
+        background: gold;
+        padding: 0 1rem 0 1rem;
+        left: -1rem;
+        top: 0.5rem;
+    }
+
+    h5 {
+        bottom: 10rem;
+        right: 25rem;
+        color: white;
+    }
+
+
+}

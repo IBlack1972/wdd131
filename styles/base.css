@@ -3,6 +3,7 @@
     max-width: 800px;
     font-family: "Exo 2"; 
 }
+
 main, footer, header, h1, h2, h3 {
     text-align: center;
 }
@@ -45,9 +46,9 @@ h3{
     margin: 1rem;
 }
 
-img {
+/* img {
     padding: 0.5rem;
-}
+} */
 
 nav {
     display: flex;

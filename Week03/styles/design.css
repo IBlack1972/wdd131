@@ -57,6 +57,7 @@ footer {
 	text-align: left;
 }
 
-fred {
-    color: navy;
+.hero img {
+	width: 100%;
+	height: auto;
 }

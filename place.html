@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Country Page">
+    <meta name="author" content="Isaac Black">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js"></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>WDD131 Country Page | Isaac Black</title>
+</head>
+<body>
+    <header>
+        <h1>Boundary County, Idaho</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/mountain-forest-lake-scene.webp" media="(min-width: 800px)">
+                <source srcset="images/mountain-forest-lake-scene-small.webp" media="(min-width: 500px)">
+                <img src="images/mountain-forest-lake-scene-small.webp" alt="Mountain Forest Lake">
+            </picture>
+            <h5>Photo by <a href="https://unsplash.com/@ibidsy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Elliot</a> on <a href="https://unsplash.com/photos/a-lake-surrounded-by-trees-and-mountains-hS-WkgOohjc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </h5>
+        </div>
+        <div id="data">
+            <h2>Data</h2>
+            <ul class="align-right">
+                <li>Area:</li>
+                <li>Cities:</li>
+                <li>Time Zone:</li>
+                <li>Population:</li>
+                <li>County Seat:</li>
+                <li>Congressional District:</li>
+                <li>Named After:</li>
+            </ul>
+            <ul class="align-left">
+                <li>1,278 sqmi</li>
+                <li>Bonners Ferry, Moyie Springs</li>
+                <li>UTC - 8 (Pacific)</li>
+                <li>13,557 (2023)</li>
+                <li>Bonners Ferry</li>
+                <li>1st</li>
+                <li>Canada - United States border</li>
+            </ul>
+        </div>
+        <div id="weather">
+            <h2>Weather</h2>
+            <div class="weather">🌦️</div>
+            <ul class="align-right">
+                <li>label:</li>
+                <li>label:</li>
+                <li>label:</li>
+                <li>label:</li>
+            </ul>
+            <ul class="align-left">
+                <li>value</li>
+                <li>value</li>
+                <li>value</li>
+                <li>value</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>©️<span id="currentyear"></span> | Isaac Black | Idaho</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+</html>
